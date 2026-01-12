@@ -215,13 +215,13 @@
         }
 
         async function getCityData() {
-            const res = await axios.get('/js/CityCountyData.json');
+            const res = await axios.get('./js/CityCountyData.json');
             return res.data;
         }
 
         // 讀取健保局資料
         async function getMaskData() {
-            const res = await axios.get('/js/points.json');
+            const res = await axios.get('./js/points.json');
             return res.data;
         }
 
